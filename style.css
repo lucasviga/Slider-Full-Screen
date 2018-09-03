@@ -6,21 +6,15 @@ body, #slider, .wrap, .slide-content{
     height: 100vh;
     overflow-x: hidden;
 }
-
-.wrap{
-    position: relative;
-}
-
+.wrap{position: relative;}
 .slide{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .slide1{background-image: url('img/p1.png');}
 .slide2{background-image: url('img/p2.jpeg');}
 .slide3{background-image: url('img/p3.jpeg');}
-
 .slide-content{
     display: flex;
     flex-direction: column;
@@ -28,7 +22,6 @@ body, #slider, .wrap, .slide-content{
     align-items: center;
     text-align: center;
 }
-
 .slide-content span{
     font-size: 5rem;
     color: #fff;
